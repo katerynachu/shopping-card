@@ -1,73 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Shopping Card</title>
 </head>
+
 <body>
     <main>
-    <div class="card_container">
-        <div class="card_wrapper">
-            <div class="card_content">
-                <div class="card_image-block image-block">
-                    <div class="image-block_main">
-                        <img src="./assets/img/Trainers(1).png" alt="UltraFlex Men's Running Shoes">
+        <div class="card_container">
+            <div class="card_wrapper">
+                <div class="card_content">
+                    <div class="card_image-block image-block">
+                        <div class="image-block_main">
+                            <img src="./assets/img/Trainers(1).png" alt="UltraFlex Men's Running Shoes">
+                        </div>
+                        <div class="image-block_carousel carousel">
+                            <div class="carousel_wrapper">
+                                <img src="./assets/img/Trainers(2).png" alt="UltraFlex Men's Running Shoes">
+                                <img src="./assets/img/Trainers(3).png" alt="UltraFlex Men's Running Shoes">
+                                <img src="./assets/img/Trainers(4).png" alt="UltraFlex Men's Running Shoes">
+                            </div>
+                        </div>
                     </div>
-                    <div class="image-block_carousel carousel">
-                        <div class="carousel_wrapper">
-                            <img src="./assets/img/Trainers(2).png" alt="UltraFlex Men's Running Shoes">
-                            <img src="./assets/img/Trainers(3).png" alt="UltraFlex Men's Running Shoes">
-                            <img src="./assets/img/Trainers(4).png" alt="UltraFlex Men's Running Shoes">
+                    <div class="card_info-block info-block">
+                        <div>
+                            <p class="info-block_category">Men's Sneakers</p>
+                            <h1 class="info-block_title">UltraFlex Men's Running Shoes</h1>
+                        </div>
+                        <div class="info-block_price">
+                            <p class="price_title">PRICE</p>
+                            <div class="price_price-block">
+                                <p class="price_new-price"></p>
+                                <p class="price_old-price"></p>
+                            </div>
+                        </div>
+                        <div class="info-block_size">
+                            <p class="size_title">SIZE</p>
+                            <div class="size_sizes-block">
+                                <div class="size-block_size-item"></div>
+                                <div class="size-block_size-item"></div>
+                                <div class="size-block_size-item"></div>
+                                <div class="size-block_size-item"></div>
+                                <div class="size-block_size-item"></div>
+
+                            </div>
+                        </div>
+                        <div class="info-block_color">
+                            <p class="color_title">COLOR</p>
+                            <div class="color_color-block">
+                                <div class="color-block_color-item">
+                                </div>
+                                <div class="color-block_color-item">
+                                </div>
+                                <div class="color-block_color-item">
+                                </div>
+                                <div class="color-block_color-item">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-block_cta-buttons">
+                            <button>buy now</button>
+                            <button>add to favorite</button>
                         </div>
                     </div>
                 </div>
-                <div class="card_info-block info-block">
-                  <div>
-                    <p class="info-block_category">Men's Sneakers</p>
-                    <h1 class="info-block_title">UltraFlex Men's Running Shoes</h1>
-                  </div>
-                    <div class="info-block_price">
-                       <p class="price_title">PRICE</p>
-                       <div class="price_price-block">
-                        <p class="price_new-price"></p>
-                        <p class="price_old-price"></p>
-                       </div>
-                    </div>
-                    <div class="info-block_size">
-                        <p class="size_title">SIZE</p>
-                        <div class="size_sizes-block">
-                            <div class="size-block_size-item"></div>
-                            <div class="size-block_size-item"></div>
-                            <div class="size-block_size-item"></div>
-                            <div class="size-block_size-item"></div>
-                            <div class="size-block_size-item"></div>
-
+                <div class="card_description-block">
+                    <div class="description_tab-block">
+                        <div class="tab-block_tab-btns">
+                            <button class="tab-btn active" data-tab="tab1">description</button>
+                            <button class="tab-btn" data-tab="tab2">size chart</button>
                         </div>
-                    </div>
-                    <div class="info-block_color">
-                        <p class="color_title">COLOR</p>
-                        <div class="color_color-block">
-                            <div class="color-block_color-item">
-                            </div>
-                            <div class="color-block_color-item">
-                            </div>
-                            <div class="color-block_color-item">
-                            </div>
-                            <div class="color-block_color-item">
+                        <div class="tab-block_tab-content">
+                            <div id="tab1" class="tab-block-tab active">
+                                Experience unmatched comfort and style with the UltraFlex Men's Running Shoes. Designed
+                                for active lifestyles, these sneakers feature:
+                                A lightweight and breathable mesh upper for all-day comfort.
+                                Cushioned midsoles providing optimal support for running and walking.
+                                Non-slip rubber outsoles ensuring durability and grip on any surface.
+                                Sleek, modern design perfect for both athletic and casual wear.</div>
+                            <div id="tab2" class="tab-block-tab">
+                                TAB2
+                                Experience unmatched comfort and style with the UltraFlex Men's Running Shoes. Designed
+                                for active lifestyles, these sneakers feature:
+                                A lightweight and breathable mesh upper for all-day comfort.
+                                Cushioned midsoles providing optimal support for running and walking.
+                                Non-slip rubber outsoles ensuring durability and grip on any surface.
+                                Sleek, modern design perfect for both athletic and casual wear.
                             </div>
                         </div>
-                    </div>
-                    <div class="info-block_cta-buttons">
-                        <button>buy now</button>
-                        <button>add to favorite</button>
+                        <div class="tab-block_tab-item"></div>
                     </div>
                 </div>
             </div>
-            <div class="card_description-block"></div>
         </div>
-    </div>
     </main>
+    <script type="module" src="./assets/js/index.js"></script>
 </body>
+
 </html>
